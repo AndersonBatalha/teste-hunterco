@@ -58,6 +58,7 @@
 
     <nuxt />
   </div>
+
 </template>
 
 <style>

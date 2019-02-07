@@ -6,7 +6,7 @@
     >
       <a
         class="navbar-brand"
-        href="#"
+        href="/"
       >HunterConnect</a>
 
       <div

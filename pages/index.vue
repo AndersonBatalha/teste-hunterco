@@ -9,6 +9,7 @@
         <img :src='job.url_banner' class='card-img-top' alt='logo-empresa'/>
         <div class='card-body'>
           <h5 class='card-title'>{{ job.nome_empresa }} - {{ job.vaga }} ({{ job.senioridade }})</h5>
+          <p>Área: {{ job.area }}</p>
           <p>Local: {{ job.cidade }}</p>
           <p>Salário: R$ {{ job.valor }}</p>
           <div v-if="job.tags.length > 0">
